@@ -1,3 +1,4 @@
+import { type MetaFunction } from '@remix-run/node'
 import {
   Links,
   Meta,
@@ -5,7 +6,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react'
-import type { MetaFunction } from '@remix-run/node'
 import '~/styles/global.css'
 
 export const meta: MetaFunction = () => {
