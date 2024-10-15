@@ -1,5 +1,5 @@
 {
-  "name": "remix-better-auth",
+  "name": "remix-auth-demo",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -16,6 +16,7 @@
     "validate": "run-p typecheck lint format"
   },
   "dependencies": {
+    "@prisma/client": "^5.20.0",
     "@remix-run/node": "^2.13.1",
     "@remix-run/react": "^2.13.1",
     "@remix-run/serve": "^2.13.1",
@@ -39,6 +40,7 @@
     "postcss": "^8.4.38",
     "prettier": "^3.3.3",
     "prettier-plugin-tailwindcss": "^0.6.8",
+    "prisma": "^5.20.0",
     "remix-development-tools": "^4.7.3",
     "tailwindcss": "^3.4.4",
     "typescript": "~5.5.4",
